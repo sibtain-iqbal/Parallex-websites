@@ -9,6 +9,7 @@ const Practice = () => {
   useGSAP(() => {
     gsap.to("#page2 h1", {
       transform: "translateX(-200%)",
+      stagger : 2,
 
       scrollTrigger: {
         trigger: "#page2 ",
